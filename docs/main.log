@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.12.1)  19 MAR 2023 00:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.12.1)  15 APR 2023 23:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -1083,7 +1083,8 @@ Package chngcntr Info: \counterwithout already defined.
 LaTeX Warning: Unused global option(s):
     [ut8x].
 
-(main.aux (inc/02-glossary.aux))
+(main.aux (inc/03-intro.aux) (inc/02-glossary.aux) (inc/10-analysis.aux)
+(inc/20-design.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1097,8 +1098,7 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
 .
-
-(C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
+ (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5.
@@ -1272,477 +1272,428 @@ File: inc/00-titlenew.pdf Graphic file (type pdf)
  [1
 
 ]
+\openout2 = `inc/03-intro.aux'.
+
+ (inc/03-intro.tex) [2
+
+]
 \openout2 = `inc/02-glossary.aux'.
 
+ (inc/02-glossary.tex) [3
 
-(inc/02-glossary.tex [2
 
-] [3]
-Overfull \hbox (5.2317pt too wide) in paragraph at lines 43--44
+
+]
+\openout2 = `inc/10-analysis.aux'.
+
+ (inc/10-analysis.tex
+Overfull \hbox (5.2317pt too wide) in paragraph at lines 18--19
 \TU/TimesNewRoman(0)/m/n/14.4 больше компаний, например, Radisson, Azimut Hotel
 s, Hilton, остановивших свой
  []
 
+[4
+
+
+
+]
 File: img/pic/general.pdf Graphic file (type pdf)
 <use img/pic/general.pdf>
-[4] [5]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
-
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
-
-
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (2.63115pt too wide) in paragraph at lines 85--86
-[]\TU/TimesNewRoman(0)/m/n/14.4 Медиана времени отклика системы на действия пол
-ьзователя должна быть
- []
-
-[6]
-Overfull \hbox (0.61082pt too wide) in alignment at lines 109--116
- [] [] [] 
- []
-
-
-Overfull \hbox (0.61082pt too wide) in alignment at lines 116--121
- [] [] [] 
- []
-
-
-Overfull \hbox (0.61082pt too wide) in alignment at lines 121--125
- [] [] [] 
- []
-
-
-Overfull \hbox (0.61082pt too wide) in alignment at lines 125--127
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 136--137
-[]|\TU/TimesNewRoman(0)/m/n/14.4 4. получение и измене-
- []
-
-
-Underfull \hbox (badness 4266) in paragraph at lines 138--139
-\TU/TimesNewRoman(0)/m/n/14.4 рование информации о
- []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 138--139
-\TU/TimesNewRoman(0)/m/n/14.4 любом клиенте, зареги-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\TU/TimesNewRoman(0)/m/n/14.4 рований, зарегистриро-
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 146--147
-[]|\TU/TimesNewRoman(0)/m/n/14.4 6. получение детальной
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 148--149
-[]|\TU/TimesNewRoman(0)/m/n/14.4 6. получение детальной
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-[]|\TU/TimesNewRoman(0)/m/n/14.4 7. бронирование отеля
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 153--154
-\TU/TimesNewRoman(0)/m/n/14.4 на зарегистрированного
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 161--162
-[]|\TU/TimesNewRoman(0)/m/n/14.4 9. получение информа-
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 163--164
-[]|\TU/TimesNewRoman(0)/m/n/14.4 9. получение информа-
- []
-
-
-Underfull \hbox (badness 7273) in paragraph at lines 163--164
-\TU/TimesNewRoman(0)/m/n/14.4 ции о статусе в про-
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 163--164
-\TU/TimesNewRoman(0)/m/n/14.4 грамме лояльности лю-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-[]|\TU/TimesNewRoman(0)/m/n/14.4 10. изменение доступ-
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 172--173
-[]|\TU/TimesNewRoman(0)/m/n/14.4 11. редактирование ин-
- []
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 172--173
-\TU/TimesNewRoman(0)/m/n/14.4 формации об условиях
- []
-
-
-Overfull \hbox (0.61082pt too wide) in alignment at lines 127--174
- [] [] [] 
- []
-
-[7]
-Overfull \hbox (3.1635pt too wide) in paragraph at lines 199--200
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Клиент/Администратор| 
- []
-
-[8] [9]
-Overfull \hbox (2.0072pt too wide) in paragraph at lines 260--260
-[]|\TU/TimesNewRoman(0)/b/n/14.4 Пользователь| 
- []
-
-
-Overfull \hbox (6.30173pt too wide) in alignment at lines 255--262
- [] [] [] 
- []
-
-
-Overfull \hbox (2.0072pt too wide) in paragraph at lines 265--265
-[]|\TU/TimesNewRoman(0)/b/n/14.4 Пользователь| 
- []
-
-
-Overfull \hbox (6.30173pt too wide) in alignment at lines 262--267
- [] [] [] 
- []
-
-
-Overfull \hbox (6.30173pt too wide) in alignment at lines 267--271
- [] [] [] 
- []
-
-
-Overfull \hbox (6.30173pt too wide) in alignment at lines 271--273
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 310--317
-\TU/TimesNewRoman(0)/m/n/14.4 нирований на пользователя,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--317
-\TU/TimesNewRoman(0)/m/n/14.4 • информация о номере:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--317
-\TU/TimesNewRoman(0)/m/it/14.4 этаж\TU/TimesNewRoman(0)/m/n/14.4 , \TU/TimesNew
-Roman(0)/m/it/14.4 номер\TU/TimesNewRoman(0)/m/n/14.4 , \TU/TimesNewRoman(0)/m/
-it/14.4 количество
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--328
-\TU/TimesNewRoman(0)/m/n/14.4 • информация о клиенте,
- []
-
-
-Underfull \hbox (badness 2245) in paragraph at lines 318--328
-\TU/TimesNewRoman(0)/m/n/14.4 на которое оно оформлено:
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 318--328
-\TU/TimesNewRoman(0)/m/n/14.4 • информация о гостинице:
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 318--328
-\TU/TimesNewRoman(0)/m/n/14.4 её \TU/TimesNewRoman(0)/m/it/14.4 идентификатор, 
-полный
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--328
-\TU/TimesNewRoman(0)/m/n/14.4 • информация о номере:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--328
-\TU/TimesNewRoman(0)/m/it/14.4 этаж, номер, количество
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--328
-\TU/TimesNewRoman(0)/m/n/14.4 • информация об оплате:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--328
-\TU/TimesNewRoman(0)/m/it/14.4 идентификатор, статус,
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 318--328
-\TU/TimesNewRoman(0)/m/it/14.4 ФИО оплатившего, дата \TU/TimesNewRoman(0)/m/n/1
-4.4 и
- []
-
-
-Underfull \hbox (badness 6808) in paragraph at lines 330--332
-[]|\TU/TimesNewRoman(0)/m/n/14.4 5. список зарегистрирован-
- []
-
-
-Underfull \hbox (badness 4254) in paragraph at lines 330--332
-\TU/TimesNewRoman(0)/m/n/14.4 ных в системе клиентов с
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 330--332
-\TU/TimesNewRoman(0)/m/it/14.4 ты рождения, контактных
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 330--332
-\TU/TimesNewRoman(0)/m/it/14.4 число предыдущих брониро-
- []
-
-
-Overfull \hbox (6.30173pt too wide) in alignment at lines 273--332
- [] [] [] 
- []
-
-[10] [11] [12]
-File: img/pic/topology.pdf Graphic file (type pdf)
-<use img/pic/topology.pdf>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] [14]
-Overfull \hbox (7.15941pt too wide) in paragraph at lines 393--394
+[5]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [6]
+Overfull \hbox (2.63115pt too wide) in paragraph at lines 60--61
+[]\TU/TimesNewRoman(0)/m/n/14.4 Медиана времени отклика системы на действия пол
+ьзователя должна быть
+ []
+
+[7] [8]
+Overfull \hbox (1.92764pt too wide) in paragraph at lines 192--193
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Бронирование| 
+ []
+
+[9] [10] [11] [12]
+File: img/pic/topology.pdf Graphic file (type pdf)
+<use img/pic/topology.pdf>
+ [13] [14] [15]
+Overfull \hbox (7.15941pt too wide) in paragraph at lines 380--381
 []\TU/TimesNewRoman(0)/m/n/14.4 Система состоит из микросервисов. Каждый микрос
 ервис отвечает за свою
  []
 
-[15]
-Overfull \hbox (2.68863pt too wide) in paragraph at lines 411--412
+
+Overfull \hbox (2.68863pt too wide) in paragraph at lines 398--399
 []\TU/TimesNewRoman(0)/m/n/14.4 Для запросов, выполняющих обновление данных на 
 нескольких узлах рас-
  []
 
-[16]
-Overfull \hbox (2.59366pt too wide) in paragraph at lines 445--446
+[16] [17]
+Overfull \hbox (2.59366pt too wide) in paragraph at lines 432--433
 []\TU/TimesNewRoman(0)/m/n/14.4 получение информации и обновление данных о заре
 гистрированном поль-
  []
 
-[17]
-Overfull \hbox (1.54608pt too wide) in paragraph at lines 464--465
+
+Overfull \hbox (1.54608pt too wide) in paragraph at lines 451--452
 \TU/TimesNewRoman(0)/m/n/14.4 Хранимая в базе данных сущность, ассоциированная 
 с сервисом, детально пред-
  []
 
 
-Overfull \hbox (1.7519pt too wide) in paragraph at lines 470--471
+Overfull \hbox (1.7519pt too wide) in paragraph at lines 457--458
 []|\TU/TimesNewRoman(0)/b/n/14.4 Обязательность| 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 465--472
+Overfull \hbox (6.30215pt too wide) in alignment at lines 452--459
  [] [] [] 
  []
 
 
-Overfull \hbox (1.7519pt too wide) in paragraph at lines 475--476
+Overfull \hbox (1.7519pt too wide) in paragraph at lines 462--463
 []|\TU/TimesNewRoman(0)/b/n/14.4 Обязательность| 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 472--477
+Overfull \hbox (6.30215pt too wide) in alignment at lines 459--464
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 477--481
+Overfull \hbox (6.30215pt too wide) in alignment at lines 464--468
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 481--483
+Overfull \hbox (6.30215pt too wide) in alignment at lines 468--470
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 483--532
+Overfull \hbox (6.30215pt too wide) in alignment at lines 470--519
  [] [] [] 
  []
 
 [18]
-Overfull \hbox (1.7519pt too wide) in paragraph at lines 563--564
+Overfull \hbox (1.7519pt too wide) in paragraph at lines 550--551
 []|\TU/TimesNewRoman(0)/b/n/14.4 Обязательность| 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 558--565
+Overfull \hbox (6.30215pt too wide) in alignment at lines 545--552
  [] [] [] 
  []
 
 
-Overfull \hbox (1.7519pt too wide) in paragraph at lines 568--569
+Overfull \hbox (1.7519pt too wide) in paragraph at lines 555--556
 []|\TU/TimesNewRoman(0)/b/n/14.4 Обязательность| 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 565--570
+Overfull \hbox (6.30215pt too wide) in alignment at lines 552--557
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 570--574
+Overfull \hbox (6.30215pt too wide) in alignment at lines 557--561
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 574--576
+Overfull \hbox (6.30215pt too wide) in alignment at lines 561--563
  [] [] [] 
  []
 
 
-Overfull \hbox (1.92764pt too wide) in paragraph at lines 670--671
+Overfull \hbox (1.92764pt too wide) in paragraph at lines 657--658
 []|[]| 
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 696--697
+Underfull \hbox (badness 3240) in paragraph at lines 683--684
 []|\TU/TimesNewRoman(0)/m/it/14.4 статус\TU/TimesNewRoman(0)/m/n/14.4 , APPROVE
 D/UNAPPROVED, по
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 576--712
+Overfull \hbox (6.30215pt too wide) in alignment at lines 563--699
  [] [] [] 
  []
 
-[19]
-Overfull \hbox (1.7519pt too wide) in paragraph at lines 729--730
+[19] [20]
+Overfull \hbox (1.7519pt too wide) in paragraph at lines 716--717
 []|\TU/TimesNewRoman(0)/b/n/14.4 Обязательность| 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 724--731
+Overfull \hbox (6.30215pt too wide) in alignment at lines 711--718
  [] [] [] 
  []
 
 
-Overfull \hbox (1.7519pt too wide) in paragraph at lines 734--735
+Overfull \hbox (1.7519pt too wide) in paragraph at lines 721--722
 []|\TU/TimesNewRoman(0)/b/n/14.4 Обязательность| 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 731--736
+Overfull \hbox (6.30215pt too wide) in alignment at lines 718--723
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 736--740
+Overfull \hbox (6.30215pt too wide) in alignment at lines 723--727
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 740--742
+Overfull \hbox (6.30215pt too wide) in alignment at lines 727--729
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30215pt too wide) in alignment at lines 742--767
+Overfull \hbox (6.30215pt too wide) in alignment at lines 729--754
  [] [] [] 
  []
 
-[20]
-Overfull \hbox (14.84444pt too wide) in paragraph at lines 777--778
+
+Overfull \hbox (14.84444pt too wide) in paragraph at lines 764--765
 []\TU/TimesNewRoman(0)/m/n/14.4 обновление числа бронирований и статуса по прог
 рамме лояльности (преду-
  []
 
 
-Overfull \hbox (1.7519pt too wide) in paragraph at lines 788--789
+Overfull \hbox (1.7519pt too wide) in paragraph at lines 775--776
 []|\TU/TimesNewRoman(0)/b/n/14.4 Обязательность| 
  []
 
 
-Overfull \hbox (6.30217pt too wide) in alignment at lines 783--790
+Overfull \hbox (6.30217pt too wide) in alignment at lines 770--777
  [] [] [] 
  []
 
 
-Overfull \hbox (1.7519pt too wide) in paragraph at lines 793--794
+Overfull \hbox (1.7519pt too wide) in paragraph at lines 780--781
 []|\TU/TimesNewRoman(0)/b/n/14.4 Обязательность| 
  []
 
 
-Overfull \hbox (6.30217pt too wide) in alignment at lines 790--795
+Overfull \hbox (6.30217pt too wide) in alignment at lines 777--782
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30217pt too wide) in alignment at lines 795--799
+Overfull \hbox (6.30217pt too wide) in alignment at lines 782--786
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30217pt too wide) in alignment at lines 799--801
+Overfull \hbox (6.30217pt too wide) in alignment at lines 786--788
  [] [] [] 
  []
 
 
-Overfull \hbox (6.30217pt too wide) in alignment at lines 801--832
+Overfull \hbox (6.30217pt too wide) in alignment at lines 788--819
  [] [] [] 
  []
 
-
-Overfull \hbox (3.84476pt too wide) in paragraph at lines 835--836
+[21]
+Overfull \hbox (3.84476pt too wide) in paragraph at lines 822--823
 []\TU/TimesNewRoman(0)/m/n/14.4 Все серверные приложения должны потреблять сумм
 арно не более 2 Гбайт
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 861--862
+[22]) [23]
+\openout2 = `inc/20-design.aux'.
+
+ (inc/20-design.tex
+File: img/idef0/01_A-0.png Graphic file (type bmp)
+<img/idef0/01_A-0.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img/idef0/02_A0.png Graphic file (type bmp)
+<img/idef0/02_A0.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24
+
+
+
+]
+
+LaTeX Warning: Text page 25 contains only floats.
+
+
+Overfull \vbox (7.90535pt too high) has occurred while \output is active []
+
+
+[25]
+
+LaTeX Warning: Text page 26 contains only floats.
+
+
+Overfull \vbox (9.33426pt too high) has occurred while \output is active []
+
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 872--873
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-) [23] 
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+File: img/use-case/user.pdf Graphic file (type pdf)
+<use img/use-case/user.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28]
+Underfull \hbox (badness 1924) in paragraph at lines 105--106
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Актер заполняет форму и
+ []
+
+[29]
+File: img/use-case/client.pdf Graphic file (type pdf)
+<use img/use-case/client.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Просмотр информации о
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+\TU/TimesNewRoman(0)/m/n/14.4 возможном бронировании
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+\TU/TimesNewRoman(0)/m/n/14.4 по заданным реквизитам
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+\TU/TimesNewRoman(0)/m/n/14.4 (дата, цена, количество
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 161--162
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Система предоставляет актеру ранжирован-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 161--162
+\TU/TimesNewRoman(0)/m/n/14.4 ный список номеров, наиболее подходящих
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Просмотр информации о
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/n/14.4 возможном бронировании
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/n/14.4 по заданным реквизитам
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/n/14.4 (дата, цена, количество
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 192--193
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Система предоставляет актеру ранжирован-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 192--193
+\TU/TimesNewRoman(0)/m/n/14.4 ный список номеров, наиболее подходящих
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Просмотр информации о
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/14.4 возможном бронировании
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/14.4 по заданным реквизитам
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/14.4 (дата, цена, количество
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 210--211
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Система предоставляет актеру ранжирован-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 210--211
+\TU/TimesNewRoman(0)/m/n/14.4 ный список номеров, наиболее подходящих
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 213--214
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Бронирование (транзакция
+ []
+
+[30] [31]
+File: img/use-case/admin.pdf Graphic file (type pdf)
+<use img/use-case/admin.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [32] [33] 
 AED: lastpage setting LastPage
-(main.aux (inc/02-glossary.aux))
+(main.aux (inc/03-intro.aux) (inc/02-glossary.aux) (inc/10-analysis.aux)
+(inc/20-design.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20523 strings out of 411059
- 390384 string characters out of 2830150
- 876048 words of memory out of 3000000
- 40802 multiletter control sequences out of 15000+600000
+ 20660 strings out of 411059
+ 394184 string characters out of 2830150
+ 881048 words of memory out of 3000000
+ 40910 multiletter control sequences out of 15000+600000
  406791 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,17n,97p,596b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,17n,97p,596b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (23 pages).
+Output written on main.pdf (33 pages).
