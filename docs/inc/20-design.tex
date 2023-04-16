@@ -215,7 +215,7 @@
 	Система перенаправляет актера на страницу оплаты, из-за проблем с платёжной операцией актеру предлагается повторить попытку, номер на актера не регистрируется
 \end{longtable}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\begin{center}
 		{\includegraphics[scale = 0.54]{img/use-case/admin.pdf}}
 		\caption{Диаграмма прецедентов с точки зрения администратора.}
@@ -224,3 +224,385 @@
 \end{figure}
 
 \pagebreak
+
+\section*{Спецификация классов}
+На рисунке \ref{fig:diag-classes} представлена диаграмма классов для разработки микросервиса бронирования.
+
+\begin{figure}[h!]
+	\begin{center}
+		{\includegraphics[scale = 0.58]{img/diag_classes/classes.pdf}}
+		\caption{Диаграмма прецедентов с точки зрения администратора.}
+		\label{fig:diag-classes}
+	\end{center}
+\end{figure} 
+
+Классы ReservationEntity, HotelEntity, RoomEntity представляют легковесные объекты бизнес-логики, ассоциированные с соответствующими сущностями базы данных. Атрибуты указанных классов представлены в таблицах \ref{tbl:hotel-entity}-\ref{tbl:reservation-entity}.
+
+\begin{longtable}{| p{3cm} | p{5cm} | p{8cm} |}
+	\caption{Атрибуты класса HotelEntity}
+	\label{tbl:hotel-entity} \\
+	\hline
+	
+	\multicolumn{3}{|c|}{\textbf{Атрибуты}} \\
+	\hline
+	
+	\textbf{Имя} & \textbf{Тип} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{Имя} & \textbf{Тип} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\multicolumn{3}{c}{\textit{Продолжение на следующей странице}}
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	id
+	&
+	private: int
+	&
+	идентификатор \\
+	\hline
+	
+	name
+	&
+	private: string
+	&
+	название \\
+	\hline
+	
+	country
+	&
+	private: string
+	&
+	страна \\
+	\hline
+	
+	city
+	&
+	private: string
+	&
+	город \\
+	\hline
+	
+	address
+	&
+	private: string
+	&
+	адрес \\
+	\hline
+	
+	phone
+	&
+	private: string
+	&
+	контактный телефон \\
+	\hline
+	
+	email
+	&
+	private: string
+	&
+	электронная почта \\
+	\hline
+	
+	description
+	&
+	private: string
+	&
+	описание \\
+	\hline
+	
+	stars
+	&
+	private: int
+	&
+	количество звёзд \\
+\end{longtable}
+
+\begin{longtable}{| p{3cm} | p{5cm} | p{8cm} |}
+	\caption{Атрибуты класса RoomEntity}
+	\label{tbl:room-entity} \\
+	\hline
+	
+	\multicolumn{3}{|c|}{\textbf{Атрибуты}} \\
+	\hline
+	
+	\textbf{Имя} & \textbf{Тип} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{Имя} & \textbf{Тип} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\multicolumn{3}{c}{\textit{Продолжение на следующей странице}}
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	id
+	&
+	private: int
+	&
+	идентификатор \\
+	\hline
+	
+	hotelId
+	&
+	private: int
+	&
+	идентификатор гостиницы \\
+	\hline
+	
+	numPlace
+	&
+	private: int
+	&
+	число мест \\
+	\hline
+	
+	level
+	&
+	private: int
+	&
+	этаж \\
+	\hline
+	
+	price
+	&
+	private: float
+	&
+	стоимость \\
+	\hline
+	
+	isDoubleBed
+	&
+	private: boolean
+	&
+	признак наличия двуспальной кровати \\
+\end{longtable}
+
+\begin{longtable}{| p{3cm} | p{5cm} | p{8cm} |}
+	\caption{Атрибуты класса ReservationEntity}
+	\label{tbl:reservation-entity} \\
+	\hline
+	
+	\multicolumn{3}{|c|}{\textbf{Атрибуты}} \\
+	\hline
+	
+	\textbf{Имя} & \textbf{Тип} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{Имя} & \textbf{Тип} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\multicolumn{3}{c}{\textit{Продолжение на следующей странице}}
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	id
+	&
+	private: int
+	&
+	идентификатор \\
+	\hline
+	
+	username
+	&
+	private: string
+	&
+	логин клиента \\
+	\hline
+	
+	paymentId
+	&
+	private: int
+	&
+	идентификатор платёжной операции \\
+	\hline
+	
+	hotelId
+	&
+	private: int
+	&
+	идентификатор гостиницы \\
+	\hline
+	
+	status
+	&
+	private: string
+	&
+	статус \\
+	\hline
+	
+	startDate
+	&
+	private: timestamp
+	&
+	дата въезда \\
+	\hline
+	 
+	endDate
+	&
+	private: timestamp
+	&
+	дата выезда \\
+\end{longtable}
+
+Классы ReservationDTO, HotelResponseDTO, RoomDTO, PaymentInfoDTO представляют объекты для передачи данных между классами бизнес-логики. Атрибутивный состав ReservationDTO, HotelResponseDTO, RoomDTO аналогичен составу ассоциированных с ними сущностей базы данных.  Атрибуты вспомогательного класса PaymentInfoDTO представлены в таблице \ref{tbl:paymentInfo-dto}.
+
+\begin{longtable}{| p{3cm} | p{5cm} | p{8cm} |}
+	\caption{Атрибуты класса PaymentInfoDTO}
+	\label{tbl:paymentInfo-dto} \\
+	\hline
+	
+	\multicolumn{3}{|c|}{\textbf{Атрибуты}} \\
+	\hline
+	
+	\textbf{Имя} & \textbf{Тип} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{Имя} & \textbf{Тип} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\multicolumn{3}{c}{\textit{Продолжение на следующей странице}}
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	status
+	&
+	private: string
+	&
+	статус операции \\
+	\hline
+	
+	price
+	&
+	private: float
+	&
+	стоимость \\
+\end{longtable}
+
+Классы HotelRepository и ReservationRepository отвечают за взаимодействие микросервиса с базой данных. Методы каждого приведены в таблицах \ref{tbl:hotelrepository}-\ref{tbl:reservationrepository}.
+
+\begin{longtable}{| p{8cm} | p{8cm} |}
+	\caption{Атрибуты класса HotelRepository}
+	\label{tbl:hotelrepository} \\
+	\hline
+	
+	\multicolumn{2}{|c|}{\textbf{Методы}} \\
+	\hline
+	
+	\textbf{Название} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{Название} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\multicolumn{2}{c}{\textit{Продолжение на следующей странице}}
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	getHotelById(int): HotelEntity
+	&
+	param: id [int - in] - идентификатор \newline
+	\textit{получение информации о гостинице по её идентификатору }\\
+	\hline
+	
+	getRoomById(int, int): RoomEntity
+	&
+	param: idHotel [int - in] - идентификатор гостинцы \newline
+	param: idRoom [int - in] - идентификатор номера \newline
+	\textit{получение информации о номере по идентификаторам гостиницы и номера }\\
+\end{longtable}
+
+\begin{longtable}{| p{8cm} | p{8cm} |}
+	\caption{Атрибуты класса ReservationRepository}
+	\label{tbl:reservationrepository} \\
+	\hline
+	
+	\multicolumn{2}{|c|}{\textbf{Методы}} \\
+	\hline
+	
+	\textbf{Название} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{Название} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\multicolumn{2}{c}{\textit{Продолжение на следующей странице}}
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	getReservationByUsername(string): ReservationEntity[]
+	&
+	param: [string - in] - логин клиента \newline
+	\textit{получение информации о бронированиях по логину клиента }\\
+	\hline
+	
+	getReservationById(int): ReservationEntity
+	&
+	param: [int - in] - идентификатор бронирования \newline
+	\textit{получение информации о бронировании по его идентификатору }\\
+	\hline
+	
+	postReservation(ReservationEntity): ReservationEntity
+	&
+	param: [ReservationEntity - in] - бронирование \newline
+	\textit{создание записи о бронировании} \\
+	\hline
+	
+	revokeReservation(string, int): void
+	&
+	param: [string - in] - логин клиента \newline
+	param: [int - in] - идентификатор бронирования \newline
+	\textit{отмена бронирования }\\
+\end{longtable}
+
+Классы ReservationService и HotelService реализуют основную бизнес-логику микросервиса, преобразование данных и передачу их на последующий слой, непосредственно связанный с базой данных, поэтому предоставляемые ими методы схожи с методами классов ReservationRepository и HotelRepository.
+
+На рисунке \ref{fig:schema-reservation} \TODO{++++++++++++++}
+
+\begin{figure}[h]
+	\begin{center}
+		{\includegraphics[scale = 0.58]{img/schemas/schema-1.pdf}}
+		\caption{Диаграмма деятельности в режиме <<Бронирование>> для клиента.}
+		\label{fig:schema-reservation}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}
+		{\includegraphics[angle = 90, scale = 0.63]{img/flow/diag_general.png}}
+		\caption{Диаграмма последовательности действий при бронировании номера клиентом: концептуальный уровень.}
+		\label{fig:flow-level1}
+	\end{center}
+\end{figure}
+
